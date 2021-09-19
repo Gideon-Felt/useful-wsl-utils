@@ -1,3 +1,5 @@
+from typing import List
+
 def get_resolvers(default: str = "127.0.0.1") -> str:
     """
     if using WSL will access /etc/resolv.conf and parse the host address, may access service provided on host machine.
